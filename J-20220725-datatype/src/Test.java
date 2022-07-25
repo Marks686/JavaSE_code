@@ -3,6 +3,12 @@ import com.sun.xml.internal.ws.addressing.WsaActionUtil;
 
 public class Test {
     public static void main(String[] args) {
+        int a = 20;
+        double b = 11.2;
+        int c = (int)(a + b);
+        System.out.println(c);
+    }
+    public static void main16(String[] args) {
         int a = 10;
         String str = a + "";
         //System.out.ptintln(str)
