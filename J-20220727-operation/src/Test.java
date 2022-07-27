@@ -5,6 +5,66 @@ import java.util.Scanner;
 
 public class Test {
     public static void main(String[] args) {
+        //编写程序数一下 1到 100 的所有整数中出现多少个数字9
+        //生成1~100的所有数字
+        int m = 0;
+        for (int i = 1; i <= 100; i++) {
+            if(i/10==9){
+                m++;
+            }
+            if(i%10==9){
+                m++;
+            }
+        }
+        System.out.println(m);
+    }
+    public static void main11(String[] args) {
+        //输出1000~2000 之间的所有闰年
+        //生成1000~20000的所有年份
+        for (int i = 1000; i <= 2000; i++) {
+            //判断闰年
+            if(i % 4 == 0 && i % 100 != 0){
+                System.out.println(i);
+            } else if (i % 400 == 0) {
+                System.out.println(i);
+            }
+        }
+    }
+    public static void main10(String[] args) {
+        //打印素数1~100
+        //生成1~100的所有数
+        for (int i = 1; i <= 100; i++) {
+            //判断是不是素数
+            int a = 0;
+            for (int j = 2; j < i; j++) {
+                if(i % j == 0){
+                    a++;
+                }
+            }
+            if(a == 0){
+                System.out.println(i);
+            }
+        }
+    }
+    public static void main9(String[] args) {
+        //给定一个数字 判断它是不是素数
+        //输入数
+        Scanner scanner = new Scanner(System.in);
+        int num = scanner.nextInt();
+        //判断是不是素数
+        int a = 0;
+        for (int i = 2; i < num; i++) {
+            if(num % i == 0){
+                a++;
+            }
+        }
+        if(a == 0){
+            System.out.println(num+" 是素数");
+        }else {
+            System.out.println(num+" 不是素数");
+        }
+    }
+    public static void main8(String[] args) {
      /*   int x = 20;
         if(x == 10){
             System.out.println("hehe");
