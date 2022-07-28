@@ -5,6 +5,92 @@ import java.util.Scanner;
 
 public class Test {
     public static void main(String[] args) {
+        int a = 10;
+        int b = 20;
+        int c = a + ((b - a) >> 1);
+        System.out.println(c);
+    }
+    public static void main26(String[] args) {
+        int a = 10;
+        int b = 20;
+        double c = a > b? 1 : 2.0;//c的类型要同时满足表达式2和3
+    }
+    public static void main25(String[] args) {
+        System.out.println(-1>>>1);
+    }
+    public static void main24(String[] args) {
+        int a = 4;
+        System.out.println(!(a<5));//false
+        System.out.println(!(a == 4));//false
+        System.out.println(!(a != 4));//true
+    }
+    public static void main23(String[] args) {
+        int a = 1;
+        int b = 2;
+        System.out.println(a<5 && b>6);
+    }
+    public static void main22(String[] args) {
+        int a = 8;
+        //if(6 < a < 9){
+
+        //}
+    }
+    public static void main21(String[] args) {
+        int a = 13;
+        int b = 20;
+        System.out.println(a == b);//false
+        System.out.println(a != b);//true
+        System.out.println(a > b);//false
+        System.out.println(a < b);//true
+        System.out.println(a <= b);//true
+        System.out.println(a >= b);//false
+    }
+    public static void main20(String[] args) {
+        int b = 1;
+        b++;//b加1 此时 b = 2
+        System.out.println(b++);//此时是后置++ 表达式先使用 再++ 所以 输出2 此时 b = 3
+        ++b;//前置++给b加1  b = 4
+        System.out.println(++b);//前置++ 先++ 再使用 所以此时输出5   b = 5
+        System.out.println(b);//输出5
+    }
+    public static void main19(String[] args) {
+        double d = 11.5;
+        int a = 10;
+        //a = a +d;错误警告
+        a += d;//自动转换成int型
+        System.out.println(a);
+    }
+    public static void main18(String[] args) {
+        int a = 9;
+        a += 4;//相当于 a = a + 4
+        System.out.println(a);
+    }
+    public static void main17(String[] args) {
+        System.out.println( 2 + 3.5);//5.5
+    }
+    public static void main16(String[] args) {
+        System.out.println(10 / 0);
+    }
+    public static void main15(String[] args) {
+        System.out.println(12.5 % 10.5);
+        System.out.println(11 % 10.5);
+        //在Java里面%左右两边可以小数，可以对小数进行求余
+    }
+    public static void main14(String[] args) {
+        System.out.println(20%3);//2
+        System.out.println(-20%3);//-2
+        System.out.println(20%-3);//2
+        System.out.println(-20%-3);//-2
+    }
+    public static void main13(String[] args) {
+        System.out.println(5/2);
+        System.out.println(5.0/2);
+        System.out.println(5/2.0);
+        System.out.println((float) 5/2);
+        System.out.println(5/(float)2);
+        System.out.println((float) (5/2));
+    }
+    public static void main12(String[] args) {
         //编写程序数一下 1到 100 的所有整数中出现多少个数字9
         //生成1~100的所有数字
         int m = 0;
