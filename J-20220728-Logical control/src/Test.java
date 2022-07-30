@@ -3,6 +3,95 @@ import java.util.Scanner;
 
 public class Test {
     public static void main(String[] args) {
+        int n;
+        //计算1/1-1/2+1/3-1/4+1/5 …… + 1/99 - 1/100 的值int n;
+        double ret = 0.0;
+        for (int i = 1; i <= 100; i++) {
+            if(i % 2 == 0){
+                n = -1;
+            }else {
+                n = 1;
+            }
+            ret += n*1.0 / i;
+        }
+        System.out.println(ret);
+    }
+    public static void main26(String[] args) {
+        int n = 7;
+        for (int i = 31; i >= 1; i-= 2) {
+            System.out.print(((n>>i) & 1)+" ");
+
+        }//偶数
+        System.out.println();
+        for (int i = 30; i >= 0; i-= 2) {
+            System.out.print(((n>>i) & 1)+" ");
+
+        }
+    }
+    public static void main25(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int count  = 3;
+        while (count != 0){
+            System.out.println("输入密码, 共有"+count+"次机会");
+            String pass = scanner.nextLine();
+            if (pass .equals("123") ){
+                System.out.println("登陆成功");
+                break;
+            }else {
+                System.out.println("登陆失败");
+            }
+            count--;
+        }
+    }
+    public static void main24(String[] args) {
+        int n = 123;
+        while(n != 0){
+            System.out.println(n % 10);
+            n /= 10;
+        }
+    }
+    public static void main23(String[] args) {
+        for (int i = 1; i <= 9; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print(i+"*"+j+"="+i*j+" ");
+            }
+            System.out.println();
+        }
+    }
+    public static void main22(String[] args) {
+        int  n = 99;
+        int count = 0;
+        while (n != 0){
+            n = n &(n-1);
+            count++;
+        }
+        System.out.println(count);
+    }
+    public static void main21(String[] args) {
+
+        //二进制1的个数第二种写法
+        int  n = 99;
+        int count = 0;
+        while(n != 0){
+            if((n&1) != 0){
+                count++;
+            }
+            n = n >>> 1;
+        }
+    }
+    public static void main20(String[] args) {
+        //二进制1的个数
+        int  n = 99;
+        int count = 0 ;
+
+        for (int i = 0; i < 32; i++) {
+            if ((n >> i & 1) != 0) {
+                count++;
+            }
+        }
+        System.out.println(count);
+    }
+    public static void main19(String[] args) {
         Random random = new Random();
         int n = random.nextInt(100);
         //System.out.println("随机数： "+n);
