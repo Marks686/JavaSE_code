@@ -1,6 +1,71 @@
+import java.util.Random;
+import java.util.Scanner;
+
 public class Test {
     public static void main(String[] args) {
+        Random random = new Random();
+        int n = random.nextInt(100);
+        //System.out.println("随机数： "+n);
+        Scanner scanner = new Scanner(System.in);
 
+        while (true){
+            System.out.println("请输入你要猜的数字： ");
+            int num = scanner.nextInt();
+            if (num < n){
+                System.out.println("小了");
+            } else if (num > n) {
+                System.out.println("猜大了");
+            }else {
+                System.out.println("恭喜你猜对了");
+                break;
+            }
+        }
+    }
+
+
+    public static void main18(String[] args) {
+       //java当中如何生成一个简单的随机数
+        Random random = new Random();
+        //int n = random.nextInt(100)+1;//[1-101)
+        //int n = random.nextInt(51)+50;//[0-49)+50
+        int n = random.nextInt(102);
+        System.out.println(n);
+
+        //Math.random(); todo: 自主学习这个方法
+    }
+    public static void main17(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+/*        while (scanner.hasNextInt()){
+            System.out.println("请输入你的年龄： ");
+            int age = scanner.nextInt();
+            System.out.println("年龄： "+age);*/
+        while(scanner.hasNextLine()){
+            System.out.println("请输入你的姓名： ");
+            String name = scanner.nextLine();
+            System.out.println("姓名 "+name );
+            //ctr + d 结束
+        }
+    }
+    public static void main16(String[] args) {
+        //alt+回车 ctr+鼠标左键 System.in
+        Scanner scan = new Scanner(System.in);
+        int a = 10;
+        System.out.println("输入你的姓名： ");
+        String name = scan.nextLine();
+        System.out.println("姓名： "+name);
+
+        System.out.println("请输如你的年龄： ");
+        int age = scan.nextInt();
+        System.out.println("年龄： "+age);
+
+        System.out.println("请输入你的工资：");
+        float money = scan.nextFloat();
+        System.out.println("工资： "+money);
+    }
+    public static void main15(String[] args) {
+        System.out.println(10);//输出且换行
+        System.out.print("不换行");
+        System.out.printf("%s","这是格式化输出！");
     }
     public static void main14(String[] args) {
         //for i
