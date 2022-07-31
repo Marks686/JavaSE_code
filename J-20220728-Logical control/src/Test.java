@@ -2,7 +2,20 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Test {
+    public static void print(int n) {
+        if(n < 10){
+            System.out.println(n);
+        }else {
+            print(n/10);
+            System.out.println(n%10);
+        }
+
+    }
+
     public static void main(String[] args) {
+        print(1234);
+    }
+    public static void main27(String[] args) {
         int n;
         //计算1/1-1/2+1/3-1/4+1/5 …… + 1/99 - 1/100 的值int n;
         double ret = 0.0;
