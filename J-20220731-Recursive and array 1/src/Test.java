@@ -7,13 +7,13 @@ public class Test {
         print(n/10);
         System.out.println(n%10);
     }
-    public static int sum(int n) {
-        if(n < 10) {
-            return n;
-        }
-        int tmp = n%10 + sum(n/10);
-        return tmp;
-    }
+//    public static int sum(int n) {
+//        if(n < 10) {
+//            return n;
+//        }
+//        int tmp = n%10 + sum(n/10);
+//        return tmp;
+//    }
 /*    public static int func21(int n) {
         if (n == 1) {
             return 1;
