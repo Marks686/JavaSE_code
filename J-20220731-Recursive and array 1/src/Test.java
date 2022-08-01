@@ -1,4 +1,7 @@
 public class Test {
+    public static void main(String[] args) {
+
+    }
     public static void print(int n) {
         if(n < 10) {
             System.out.println(n);
@@ -25,7 +28,7 @@ public class Test {
         }
         return fib2(n-1)+fib2(n-2);
     }
-    public static void main(String[] args) {
+    public static void main4(String[] args) {
 
         System.out.println(fib(1));
         System.out.println(fib(2));
