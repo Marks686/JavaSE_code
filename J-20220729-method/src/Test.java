@@ -1,6 +1,100 @@
 import java.util.Scanner;
 
 public class Test {
+    public static int comp(int a,int b,int c){
+        int tmp = a>b?a:b;
+        return tmp>c?tmp:c;
+    }
+    public static int comp(int a,int b){
+        return a>b?a:b;
+    }
+    public static void main(String[] args) {
+        int a = 11;
+        int b = 14;
+        int c = 8;
+        int ret = comp(a,b);
+        System.out.println(ret);
+
+
+        int ret2 = comp(a,b,c);
+        System.out.println(ret2);
+    }
+    public static int sum5(int a,int b){
+        return a+b;
+    }
+    public static double sum5(double a,double b,double c){
+        return a+b+c;
+    }
+
+    public static void main28(String[] args) {
+        int a = 12;
+        int b = 13;
+        int ret = sum5(a,b);
+        System.out.println(ret);
+
+        double x = 11.1;
+        double y = 12.1;
+        double z = 13.1;
+        double ret2 = sum5(x,y,z);
+        System.out.println(ret2);
+    }
+        public static int fib (int n) {
+            if (n <= 2) {
+                return 1;
+            }
+            else {
+                return (fib(n - 1) + fib (n - 2));
+            }
+        }
+        public static void main27 (String args[]) {
+            Scanner scan = new Scanner(System.in);
+            int a = scan.nextInt();
+            int b = fib(a);
+            System.out.println(b);
+        }
+
+    public static void main26(String[] args) {
+        int sum = 0;
+        for (int i = 1; i <= 5; i++) {
+            int s = 1;
+            for (int j = 1; j <= i; j++) {
+
+                s *= j;
+            }
+
+            sum += s;
+        }
+        System.out.println(sum);
+    }
+    public static int sum2(int n){
+        if (n == 1){
+            return 1;
+        }
+        return n*fuc2(n-1);
+    }
+    public static void main25(String[] args) {
+        System.out.println(sum2(6));
+    }
+    public static int fuc2(int n){
+        if (n == 1){
+            return 1;
+        }
+        return n * fuc2(n-1);
+    }
+    public static void main24(String[] args) {
+
+        System.out.println(fuc2(5));;
+    }
+    public static int max2(int a,int b){
+        return a>b?a :b;
+    }
+    public static int max3(int a,int b,int c){
+        int ret = max2(a,b);
+        return ret>c?ret:c;
+    }
+    public static void main23(String[] args) {
+        System.out.println(max3(11,15,6));
+    }
     public static double sum (double a,double b,double c){
         return a+b;
     }
@@ -16,7 +110,7 @@ public class Test {
     public static double sum(double a, double b){
         return a+b;
     }
-    public static void main(String[] args) {
+    public static void main22(String[] args) {
         int a = 10;
         int b = 20;
         int ret = sum(a,b);

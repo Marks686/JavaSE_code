@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a4f7ab1-1acb-4b94-8b47-7541bb6dc94a" name="Changes" comment="第二次提交递归和数组的的练习代码">
+    <list default="true" id="0a4f7ab1-1acb-4b94-8b47-7541bb6dc94a" name="Changes" comment="提交递归和数组的的练习代码">
+      <change beforePath="$PROJECT_DIR$/../J-20220729-method/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../J-20220729-method/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../J-20220729-method/out/production/J-20220729-method/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../J-20220729-method/out/production/J-20220729-method/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../J-20220729-method/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../J-20220729-method/src/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/J-20220731-Recursive and array 1/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/J-20220731-Recursive and array 1/Test.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659354823711</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="提交递归和数组的的练习代码">
+      <created>1659433193490</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1659433193490</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,8 +129,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="提交递归和数组的的练习代码" />
     <MESSAGE value="第二次提交递归和数组的的练习代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="第二次提交递归和数组的的练习代码" />
+    <MESSAGE value="提交递归和数组的的练习代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交递归和数组的的练习代码" />
   </component>
 </project>

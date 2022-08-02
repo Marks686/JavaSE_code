@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca135bd1-33ff-4421-a0bb-b2277875b308" name="Changes" comment="提交方法的使用的练习代码">
-      <change afterPath="$PROJECT_DIR$/../J-20220731-Recursive and array 1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../J-20220731-Recursive and array 1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../J-20220731-Recursive and array 1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/J-20220729-method/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/J-20220729-method/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../J-20220731-Recursive and array 1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../J-20220731-Recursive and array 1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../J-20220731-Recursive and array 1/out/production/J-20220731-Recursive and array 1/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../J-20220731-Recursive and array 1/out/production/J-20220731-Recursive and array 1/Test.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
