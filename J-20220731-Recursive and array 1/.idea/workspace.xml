@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a4f7ab1-1acb-4b94-8b47-7541bb6dc94a" name="Changes" comment="提交递归和数组的的练习代码">
-      <change beforePath="$PROJECT_DIR$/../J-20220729-method/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../J-20220729-method/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../J-20220729-method/out/production/J-20220729-method/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../J-20220729-method/out/production/J-20220729-method/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../J-20220729-method/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../J-20220729-method/src/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/J-20220731-Recursive and array 1/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/J-20220731-Recursive and array 1/Test.class" afterDir="false" />
-    </list>
+    <list default="true" id="0a4f7ab1-1acb-4b94-8b47-7541bb6dc94a" name="Changes" comment="提交递归和数组的的练习代码" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
