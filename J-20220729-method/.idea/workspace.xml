@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca135bd1-33ff-4421-a0bb-b2277875b308" name="Changes" comment="提交方法的使用的练习代码">
+    <list default="true" id="ca135bd1-33ff-4421-a0bb-b2277875b308" name="Changes" comment="提交方法的使用的练习代码和作业">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +93,28 @@
       <option name="project" value="LOCAL" />
       <updated>1659440444769</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="提交方法的使用的练习代码">
+      <created>1659440509511</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1659440509511</updated>
+    </task>
+    <task id="LOCAL-00006" summary="提交方法的使用的练习代码和作业">
+      <created>1659440579852</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1659440579852</updated>
+    </task>
+    <task id="LOCAL-00007" summary="提交方法的使用的练习代码和作业">
+      <created>1659440587521</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1659440587521</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -110,6 +131,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="提交方法的使用的练习代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交方法的使用的练习代码" />
+    <MESSAGE value="提交方法的使用的练习代码 作业" />
+    <MESSAGE value="提交方法的使用的练习代码和作业" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交方法的使用的练习代码和作业" />
   </component>
 </project>
