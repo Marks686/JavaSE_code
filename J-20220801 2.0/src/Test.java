@@ -1,5 +1,7 @@
 import java.util.Arrays;
+
 public class Test {
+
 
         public static int twofind(int[] array,int tofind){
             int left = 0;
@@ -60,6 +62,4 @@ public class Test {
             System.out.println(Arrays.toString(array));
         }
 
-
     }
-}
