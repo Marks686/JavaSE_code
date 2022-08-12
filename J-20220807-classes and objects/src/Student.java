@@ -4,7 +4,7 @@ public class Student {
 
 
     Student(){
-        System.out.println("不带参数的构造方法");
+        System.out.println("带参数的构造方法");
     }
 
     Student(String name,int age){
@@ -23,5 +23,6 @@ public class Student {
          Student student = new Student();
          student.setStudent("bit",12);
          student.print();
+
     }
 }
