@@ -23,5 +23,6 @@ public class Student {
          Student student = new Student();
          student.setStudent("bit",12);
          student.print();
+
     }
 }
