@@ -1,30 +1,32 @@
+import java.util.Date;
+
 public class TestDate {
     public int year;
     public int month;
     public int day;
 
-/*    public void setDay(int y, int m, int d){
-        year = y;
-        month = m;
-        day = d;
-    }*/
+    public void setDay(TestDate this,int y, int m, int d){
+        this.year = y;
+        this.month = m;
+        this.day = d;
+    }
+    public void printDate(TestDate this){
+        System.out.println(this.year+"-"+this.month+"-"+this.day);
+    }
 
-/*    public static void main(String[] args) {
+    public static void main(String[] args) {
         TestDate testDate1 = new TestDate();
         testDate1.setDay(2022,8,18);
         testDate1.printDate();
-    }*/
-    public void setDay(int year, int month, int day){
+    }
+
+
+/*    public void setDay(int year, int month, int day){
         this.year = year;
         this.month = month;
         this.day = day;
-    }
-    public void printDate(){
-        System.out.println(year+"-"+month+"-"+day);
-    }
-
-
-    public static void main(String[] args) {
+    }*/
+    public static void main2(String[] args) {
         TestDate testDate1 = new TestDate();
         TestDate testDate2 = new TestDate();
         TestDate testDate3 = new TestDate();
