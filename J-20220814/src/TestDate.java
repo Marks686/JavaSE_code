@@ -48,5 +48,10 @@ public class TestDate {
 
         testDate.setDay(2022,8,18);
         testDate.printDate();
+
+    }
+
+    public static void main2(String[] args) {
+
     }
 }
