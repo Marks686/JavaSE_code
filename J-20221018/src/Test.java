@@ -25,7 +25,7 @@ public class Test {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main8(String[] args) {
 /*        double temperature = 50;
         if (temperature >= 100)
             System.out.println("too hot");
@@ -80,4 +80,5 @@ public class Test {
             System.out.println(j+" ");
         }
     }
+
 }
