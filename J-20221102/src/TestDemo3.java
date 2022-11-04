@@ -53,5 +53,20 @@ public class TestDemo3 {
 
         //student.show();
         System.out.println(student);
+        int i = 1;
+        i += ++i;
+        System.out.println(i);
+        boolean x=true;
+        boolean y=false;
+        short z=42;
+        if((z++==42)&&(y=true))
+            z++;
+        if((x=false)||(++z==45))
+        System.out.println("z="+z);
+        int num=0;
+        for (int b=0;b<100;b++) {
+            num=num++;
+        }
+        System.out.println("num="+num);
     }
 }
